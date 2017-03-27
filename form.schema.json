@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://example.com/root.json",
+  "properties": {
+    "models": {
+      "id": "http://example.com/root.json/models",
+      "items": {
+        "id": "http://example.com/root.json/models/0",
+        "properties": {
+          "name": {
+            "default": "pepe",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "http://example.com/root.json/models/0/name",
+            "title": "The Name schema.",
+            "type": "string"
+          },
+          "user": {
+            "default": "test",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "http://example.com/root.json/models/0/user",
+            "title": "The User schema.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "type": "object"
+}

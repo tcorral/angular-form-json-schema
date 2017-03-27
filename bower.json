@@ -1,0 +1,29 @@
+{
+  "name": "angular-form-json-schema",
+  "description": "Test Angular Form using JSON schema",
+  "main": "index.js",
+  "authors": [
+    "amischol@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "json-schema"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-schema-form": "^0.8.13",
+    "angular": "^1.6.3",
+    "tv4": "^1.2.7",
+    "objectpath": "^1.2.1",
+    "bootstrap": "^3.X.X",
+    "angular-ui-sortable": "^0.17.0"
+  }
+}
